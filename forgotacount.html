@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Forgot Account</title>
+    <style>body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        background-color: #f0f2f5;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Header Styling */
+    header {
+        padding: 10px 50px;
+        background-color: #3b5998;
+        color: white;
+        animation: slideInFromTop 1s ease-out;
+    }
+    
+    .logo img {
+        width: 150px;
+        transition: opacity 0.3s ease;
+    }
+    
+    .logo img:hover {
+        opacity: 0.8;
+    }
+    
+    /* Forgot Account Section Styling */
+    .forgot-account-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 60px);
+        background-color: #fff;
+        animation: fadeIn 1s ease-in-out;
+    }
+    
+    .content {
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+        animation: fadeInUp 1s ease-out;
+    }
+    
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    p {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 20px;
+    }
+    
+    .input-group {
+        margin-bottom: 20px;
+    }
+    
+    .input-group input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+        animation: inputFocus 0.5s ease-in-out;
+    }
+    
+    .input-group input:focus {
+        border-color: #4267b2;
+        outline: none;
+        box-shadow: 0 0 5px rgba(66, 103, 178, 0.5);
+    }
+    
+    /* Button Styling */
+    .search-btn {
+        width: 100%;
+        padding: 10px;
+        background-color: #4267b2;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .search-btn:hover {
+        background-color: #365899;
+        animation: pulse 1s infinite;
+    }
+    
+    /* Links Styling */
+    .links {
+        margin-top: 20px;
+    }
+    
+    .links a {
+        color: #4267b2;
+        text-decoration: none;
+        font-size: 14px;
+        transition: color 0.3s ease;
+    }
+    
+    .links a:hover {
+        color: #365899;
+        text-decoration: underline;
+    }
+    
+    /* Keyframes for Animations */
+    @keyframes slideInFromTop {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fadeInUp {
+        0% {
+            transform: translateY(20px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes inputFocus {
+        0% {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        100% {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+    }
+    
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.05);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="data:image/jpeg;base64,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" alt="Facebook Logo">
+        </div>
+    </header>
+
+    <section class="forgot-account-section">
+        <div class="content">
+            <h1>Find Your Account</h1>
+            <p>Please enter your email address or phone number to search for your account.</p>
+            <form action="#">
+                <div class="input-group">
+                    <input type="text" placeholder="Email address or phone number" name="email_or_phone" required>
+                </div>
+                <div class="input-group">
+                    <button type="submit" class="search-btn">Search</button>
+                </div>
+            </form>
+            <div class="links">
+                <a href="index.html">Go back to login</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

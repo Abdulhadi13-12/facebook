@@ -1,0 +1,457 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #3b5998;
+    color: white;
+}
+
+.logo img {
+    width: 170px;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+}
+
+.login-form form {
+    display: flex;
+    align-items: center;
+}
+
+.input-group {
+    margin: 0 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.input-group input {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+button {
+    background-color: #4267b2;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #365899;
+}
+
+.forgot-password {
+    margin-left: 10px;
+}
+
+.forgot-password a {
+    color: #dfe3ee;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.main-content {
+    display:
+    button:hover 
+        background-color: #365899; /* Darken the button color */
+        transition: background-color 0.3s ease; /* Smooth transition */
+    }
+    .forgot-password a:hover {
+        text-decoration: underline; /* Add underline on hover */
+        color: #ffffff; /* Change color on hover */
+    }
+    .logo img:hover {
+        opacity: 0.8; /* Make the image slightly transparent */
+        transition: opacity 0.3s ease; /* Smooth transition */
+    }
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        background-color: #f0f2f5;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Header Styling */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+        background-color: #3b5998;
+        color: white;
+        animation: slideInFromTop 1s ease-out; /* Animation for header */
+    }
+    
+    /* Logo Image Styling */
+    .logo img {
+        width: 170px;
+        transition: opacity 0.3s ease; /* Smooth transition */
+    }
+    
+    .logo img:hover {
+        opacity: 0.8; /* Make the image slightly transparent on hover */
+    }
+    
+    /* Login Form Styling */
+    .login-form {
+        display: flex;
+        align-items: center;
+        animation: fadeIn 1.5s ease-in; /* Fade-in effect for login form */
+    }
+    
+    .login-form form {
+        display: flex;
+        align-items: center;
+    }
+    
+    .input-group {
+        margin: 0 10px;
+    }
+    
+    .input-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    
+    .input-group input {
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ddd;
+        font-size: 14px;
+        animation: inputFocus 0.5s ease-in-out; /* Subtle animation for input focus */
+    }
+    
+    .input-group input:focus {
+        border-color: #4267b2; /* Change border color on focus */
+        outline: none;
+    }
+    
+    /* Button Styling */
+    button {
+        background-color: #4267b2;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Smooth transition */
+    }
+    
+    button:hover {
+        background-color: #365899; /* Darken the button color on hover */
+        animation: pulse 1s infinite; /* Pulsing effect on hover */
+    }
+    
+    /* Forgot Password Link Styling */
+    .forgot-password {
+        margin-left: 10px;
+    }
+    
+    .forgot-password a {
+        color: #dfe3ee;
+        text-decoration: none;
+        font-size: 12px;
+        transition: color 0.3s ease; /* Smooth transition */
+    }
+    
+    .forgot-password a:hover {
+        text-decoration: underline; /* Add underline on hover */
+        color: #ffffff; /* Change color on hover */
+    }
+    
+    /* Main Content Styling */
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 10%;
+        animation: fadeInUp 1s ease-out; /* Fade-in and slide-up effect */
+    }
+    
+    .left-content {
+        max-width: 50%;
+        animation: fadeInLeft 1.5s ease-out; /* Slide-in from left for left content */
+    }
+    
+    .left-content h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    .right-content {
+        max-width: 35%;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        animation: fadeInRight 1.5s ease-out; /* Slide-in from right for right content */
+    }
+    
+    .right-content h2 {
+        font-size: 1.8em;
+        color: #333;
+    }
+    
+    .right-content p {
+        font-size: 1.2em;
+        color: #555;
+        margin-bottom: 20px;
+    }
+    
+    .right-content .input-group {
+        margin-bottom: 15px;
+    }
+    
+    .signup-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 1.2em;
+        background-color
+    }body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        background-color: #f0f2f5;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Header Styling */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+        background-color: #3b5998;
+        color: white;
+        animation: slideInFromTop 1s ease-out;
+    }
+    
+    /* Logo Image Styling */
+    .logo img {
+        width: 170px;
+        transition: opacity 0.3s ease;
+    }
+    
+    .logo img:hover {
+        opacity: 0.8;
+    }
+    
+    /* Login Form Styling */
+    .login-form {
+        display: flex;
+        align-items: center;
+        animation: fadeIn 1.5s ease-in;
+    }
+    
+    .login-form form {
+        display: flex;
+        align-items: center;
+    }
+    
+    .input-group {
+        margin: 0 10px;
+    }
+    
+    .input-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    
+    .input-group input {
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ddd;
+        font-size: 14px;
+        animation: inputFocus 0.5s ease-in-out;
+    }
+    
+    .input-group input:focus {
+        border-color: #4267b2;
+        outline: none;
+    }
+    
+    /* Button Styling */
+    button {
+        background-color: #4267b2;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #365899;
+        animation: pulse 1s infinite;
+    }
+    
+    /* Forgot Password Link as Button */
+    .forgot-password {
+        margin-left: 10px;
+    }
+    
+    .forgot-password a {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #4267b2;
+        color: white;
+        border-radius: 3px;
+        text-decoration: none;
+        font-size: 12px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .forgot-password a:hover {
+        background-color: #365899;
+        text-decoration: none;
+        color: white;
+        animation: pulse 1s infinite;
+    }
+    
+    /* Main Content Styling */
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 10%;
+        animation: fadeInUp 1s ease-out;
+    }
+    
+    .left-content {
+        max-width: 50%;
+        animation: fadeInLeft 1.5s ease-out;
+    }
+    
+    .left-content h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    .right-content {
+        max-width: 35%;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        animation: fadeInRight 1.5s ease-out;
+    }
+    
+    .right-content h2 {
+        font-size: 1.8em;
+        color: #333;
+    }
+    
+    .right-content p {
+        font-size: 1.2em;
+        color: #555;
+        margin-bottom: 20px;
+    }
+    
+    .right-content .input-group {
+        margin-bottom: 15px;
+    }
+    
+    .signup-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 1.2em;
+        background-color: #42b72a;
+        border-radius: 5px;
+    }
+    
+    /* Keyframes for Animations */
+    @keyframes slideInFromTop {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fadeInUp {
+        0% {
+            transform: translateY(20px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fadeInLeft {
+        0% 
+            transform: translateX(-100%);
+            opacity: 0;
+        
+        100% 
+            transform: translateX(0);
+            opacity: 1;
+        
+    }
+    
+    @keyframes fadeInRight {
+        0% 
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes inputFocus {
+        0% 
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        100% {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+    }
+    
+    @keyframes pulse {
+        0% 
+            transform: scale(1);
+        }
+        50% 
+            transform: scale(1.05);
+        }
+        100% 
+            transform: scale(1);
+        
+    }
+    
